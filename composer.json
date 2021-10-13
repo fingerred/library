@@ -1,0 +1,16 @@
+{
+  "name": "fingerred/lib",
+  "description": "FingerRed Library",
+  "authors": [
+    {
+      "name": "fingerred",
+      "email": "redmadfinger@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-0": {
+      "": "lib/"
+    }
+  }
+}
