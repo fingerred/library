@@ -46,7 +46,7 @@ class RedLog
      *
      * @return RedLog|null
      */
-    public function instance()
+    public static function instance()
     {
         if (!self::$instance) {
             self::$instance = new self();
