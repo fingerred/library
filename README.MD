@@ -22,13 +22,10 @@ fingerRed PHP 基础 Lib，提供一些基础服务能力。
 添加到 `composer.json`
 
 ```json
-{
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": ""
-        }
-    ]
+{    
+  "require": {
+        "fingerred/lib": "dev-main"
+  }
 }
 ```
 
