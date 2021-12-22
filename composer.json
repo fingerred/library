@@ -9,6 +9,9 @@
   ],
   "require": {},
   "autoload": {
+    "psr-4": {
+      "Red\\middleware\\": "middleware/"
+    },
     "psr-0": {
       "": "lib/"
     },
